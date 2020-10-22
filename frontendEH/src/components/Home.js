@@ -75,7 +75,7 @@ function Home(props) {
                 <article className="eleGroup">
                     <img src={ele4} alt="" className="element1"/>
                     <h5>Infectious Disease Consults</h5>
-                    <p>Dr. Ruben, our Infectious Disease Specialist, has healed countless patients by treating the patient as a whole, not just the symptoms. Infectious Disease Consults typically require a physician or case manager referral and are typically available within 48 hours. Our outpatient infusion suite offers IV Antibiotics and Infusion Therapies available 7 days/week.</p>
+                    <p>Dr. Ruben, our Infectious Disease Specialist, has healed countless patients by treating the patient as a whole, not just the symptoms. Infectious Disease Consults typically require a physician or case manager referral and are made available within 48 hours. Our state of the art outpatient infusion suite offers IV Antibiotics and Infusion Therapies available 7 days/week.</p>
                 </article>
                 <article className="eleGroup">
                     <img src={ele2} alt="" className="element1"/>
@@ -89,8 +89,8 @@ function Home(props) {
                 </article>
             </div>
             <div class="homeSection5">
-                <h3>We're Working Hard to Keep Our Office Safe!</h3>
-                <p>We're following CDC reccommendations carefully, keeping our office clean, and following social distancing policies whenever possible. Our goal is not only to keep our staff members safe, but to also provide a safe place for our patients. Please help us maintain safety, wear your mask and practice social distancing when you can.</p>
+                <h3>Safety is our First Priority!</h3>
+                <p id="sec5p">We're following CDC reccommendations carefully, keeping our office clean, wearing masks, and following social distancing guidelines whenever possible. Our goal is not only to keep our staff members safe, but to also provide a safe place for our patients. Please help us maintain safety, wear your mask and practice social distancing when possible.</p>
             </div>
         </div>
     );
