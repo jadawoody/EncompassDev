@@ -7,23 +7,25 @@ import ele2 from '../images/ele2.png';
 import ele3 from '../images/ele3.png';
 import {Link} from 'react-router-dom';
 import bannerTrial2 from '../images/bannerTrial2.jpg';
-import covidBanner from '../images/copyCovidBanner.jpg';
-import EHangleBanner from '../images/EHangleBanner.jpg';
+import covidBanner from '../images/covidFall2020.jpg';
+import EHangleBanner from '../images/teleMedFall2020Banner.jpg';
 import HBOTpic from '../images/HBOT.jpg';
-import insuranceBanner from '../images/insuranceQ.banner.jpg';
+import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
 // import SimpleImageSlider from "react-simple-image-slider";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+// import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 
 function Home(props) {
     // const funzone = [
     //     {url: "images/bannerTrial2.jpg"},
     //     {url: "images/web size covid banner.png"}
     // ];
+    
     return (
         <div>
         <article className="carouselArt">
-        <Carousel showThumbs={false} showIndicator={false}>
+        <Carousel autoPlay={true} infiniteLoop={true} onChange={onChange} showThumbs={false} showStatus={false} interval={3200} >
         {/* figure out how to AUTO shift between images */}
             <div>
                 <img src={bannerTrial2} alt="bannerWithDr.Ruben" className="bannerPic"/>
