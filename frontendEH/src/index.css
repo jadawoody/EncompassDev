@@ -1,5 +1,5 @@
 * {
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* NAVBAR STYLES */
@@ -77,8 +77,6 @@ nav{
   text-align: center;
   margin-top: -4px;
   z-index: 10;
-  /* font-family: 'Bebas Neue', sans-serif; */
-  /* background-color:  rgba(211, 211, 211, 0.397); */
   padding: 1px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -133,7 +131,6 @@ nav{
 }
 .homeSection3{
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
   Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -213,6 +210,12 @@ nav{
   width: 400px;
   margin-top: -8px;
 }
+.homeSwal{
+  font-size: 10px;
+}
+swal-title{
+  font-size: 5px;
+}
 /* .serviceButton{
   width: 90px;
   color: white;
@@ -223,10 +226,163 @@ nav{
 } */
 
 /* SERVICES PAGE STYLES */
+.serviceTotal{
+  margin-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.servHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servHeader h3{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -40px;
+  /* width: 650px; */
+}
+.servHeader p{
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: -20px;
+  width: 450px;
+}
+.servIntroLine{
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.servArt p a{
+  color: black;
+  text-decoration: none;
+}
+.servArt p a:hover{
+  color: cornflowerblue;
+}
+.divOfSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divOfSec p{
+  width: 300px;
+  margin-top: -20px;
+}
+.servSec1{
+  display: flex;
+}
+.servSec2{
+  display: flex;
+}
+.servSec3{
+  display: flex;
+}
+@media (max-width: 600px){
+  .servSec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .servSec2{
+    display: flex;
+    flex-direction: column;
+  }
+  .servSec3{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.servArt h5{
+  font-size: 20px;
+  font-weight: 200;
+}
+.servArt{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid gray;
+}
+.servSec4 h5{
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: -40px;
+}
+.servList{
+  margin-top: -20px;
+  margin-left: -60px;
+  list-style: circle;
+}
+
 
 
 /* MEET OUR TEAM PAGE STYLES */
-
+.teamPage{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.teamIntro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamIntro h2{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 200;
+}
+.teamIntro p{
+  text-align: center;
+  width: 540px;
+  margin-top: -18px;
+  font-weight: 200;
+}
+.Tsec1{
+  display: flex;
+  align-items: center;
+}
+.Tsec1 h4{
+  font-weight: 300;
+  font-size: 20px;
+}
+.Tsec1 p{
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.Tsec1Pic{
+  height: auto;
+  width: 30vw;
+  /* margin-left: 20px; */
+}
+.textBox1{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.textBox2{
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.Tsec2{
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.Tsec2 h4{
+  font-weight: 300;
+  font-size: 20px;
+}
+.Tsec2 p{
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.Tsec2Pic{
+  height: auto;
+  width: 30vw;
+}
 
 /* CASE MANAGERS PAGE STYLES */
 

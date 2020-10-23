@@ -4,14 +4,16 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
+    "blog-template": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-google-login": "^5.1.21",
     "react-notifications": "^1.6.0",
     "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
-    "react-simple-image-slider": "^1.0.4"
+    "react-scripts": "^3.4.4",
+    "react-simple-image-slider": "^1.0.4",
+    "sweetalert": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

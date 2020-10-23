@@ -1,7 +1,7 @@
 import React, { useState, useEffect, onChange } from 'react';
 import actions from '../api/index';
 import triple from '../images/triple.jpeg';
-import ptPic from '../images/bruceWPt.jpeg';
+import ptPic from '../images/triple.jpeg';
 import ele4 from '../images/ele4.png';
 import ele2 from '../images/ele2.png';
 import ele3 from '../images/ele3.png';
@@ -14,6 +14,8 @@ import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
 // import SimpleImageSlider from "react-simple-image-slider";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import swal from 'sweetalert';
+
 // import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 
 function Home(props) {
@@ -21,9 +23,10 @@ function Home(props) {
     //     {url: "images/bannerTrial2.jpg"},
     //     {url: "images/web size covid banner.png"}
     // ];
-    
+    // swal("During the COVID-19 pandemic, we're continuing to bring you safe and thoughtful care 7 days/week.", "Under certain circumstances, we can conduct a telemedicine consult and help you get healthy from the safety of your home way.", "success")
     return (
         <div>
+        
         <article className="carouselArt">
         <Carousel autoPlay={true} infiniteLoop={true} onChange={onChange} showThumbs={false} showStatus={false} interval={3200} >
         {/* figure out how to AUTO shift between images */}
@@ -80,7 +83,7 @@ function Home(props) {
                 <article className="eleGroup">
                     <img src={ele2} alt="" className="element1"/>
                     <h5>Wound Care Services</h5>
-                    <p id="elep">Forget weekly debridements and painful treatments. Chronic wounds or wounds over 6 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the insdie out.</p>
+                    <p id="elep">Forget weekly debridements and painful treatments! Chronic wounds or wounds over 6 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the insdie out.</p>
                 </article>
                 <article className="eleGroup">
                     <img src={ele3} alt="" className="element1"/>
