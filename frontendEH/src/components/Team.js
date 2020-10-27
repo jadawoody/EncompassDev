@@ -1,10 +1,15 @@
 import React from 'react';
 import BER from '../images/Bruce-new-heashot1.jpg';
 import placeHold from '../images/Placeholder Photo.jpg';
+import {Link} from 'react-router-dom';
+import logoPic from '../images/EH logo.jpg';
 
 function Team(props) {
     return (
         <div className="teamPage">
+            <div className="logoDiv">
+                <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
+            </div>
             <section className="teamIntro">
                 <h2>Meet our Team!</h2>
                 <p>We are lucky to have such wonderful people on our team! Our staff includes three physicians and several other medical professionals who take pride in the excellent patient care and high-level treatment we offer at Encompass HealthCare! Our staff members have been extensively trained in a diverse set of skills for Infectious Disease and Wound Healing health care services.</p>

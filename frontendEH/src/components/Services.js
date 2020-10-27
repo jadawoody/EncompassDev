@@ -1,14 +1,20 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import logoPic from '../images/EH logo.jpg';
 
 function Services(props) {
     return (
      <div className="serviceTotal">
+
+        <div className="logoDiv">
+            <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
+        </div>
         <br></br>
         <br></br>
         <header className="servHeader">
             <h3>Services & Treatments</h3>
             <h3>at Encompass HealthCare & Wound Medicine</h3>
-            <p>Our team strives to create treatment plans that work for you! We've carefully cultivated a broad set of treatments, services and care options in order to offer a comprehensive facility.</p>
+            <p>Our team strives to create treatment plans that work for you! We've carefully cultivated a broad set of treatments, services and care options in order to offer a truly comprehensive healthcare facility.</p>
         </header>
 
         <h3 className="servIntroLine">Our Core Services</h3>

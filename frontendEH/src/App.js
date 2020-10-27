@@ -8,28 +8,36 @@ import Blog from './components/Blog';
 import Team from './components/Team';
 import CM from './components/CM';
 import Physicians from './components/Physicians';
+import Menu from './components/Menu';
 import logoPic from './images/EH logo.jpg';
-import banner1 from './images/web size banner c.png';
-import bannerTrial2 from './images/bannerTrial2.jpg';
-import SimpleImageSlider from "react-simple-image-slider";
+
+// import squash-burger from 'squash-burger.js'
+// import SimpleImageSlider from "react-simple-image-slider";
 function App(props) {
   return (
     <div>
-      <nav >
-      <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
+  {/* <Menu/> */}
 
-        <ul className="navbar-list">
-          <Link to={`/`}><li>Home</li></Link>
-          <Link to={`/Services`}><li>Services & Treatment</li></Link>
-          <Link to={`/MeetOurTeam`}><li>Meet Our Team</li></Link>
-          <Link to={`/CaseManagers`}><li>Case Managers</li></Link>
-          <Link to={`/Physicians`}><li>Referring Physicians</li></Link>
-          <Link to={`/Blog`}><li>Blog</li></Link>
-          <Link to={`/ContactUs`}><li>Contact Us</li></Link>
-      
-        </ul>
-      </nav>
+    <nav id="regularMenu" role="navigation">
+<div class="overlay">
+  <label for="toggle"></label>
+</div>
+{/* <input type="checkbox" id="toggle" name="toggle" /> */}
+<div class="verticalNav">
+  <ul className="navbar-list" id="menu">
+    <Link to={`/`}><li>Home</li></Link>
+    <Link to={`/Services`}><li>Services & Treatment</li></Link>
+    <Link to={`/MeetOurTeam`}><li>Meet Our Team</li></Link>
+    <Link to={`/CaseManagers`}><li>Case Managers</li></Link>
+    <Link to={`/Physicians`}><li>Referring Physicians</li></Link>
+    <Link to={`/Blog`}><li>Blog</li></Link>
+    <Link to={`/ContactUs`}><li>Contact Us</li></Link>
 
+  </ul>
+  </div>   
+</nav>
+
+          
       <Switch>
         <Route exact path='/' render={() => <Home/>} />
         <Route exact path='/Services' render={() => <Services/>} />

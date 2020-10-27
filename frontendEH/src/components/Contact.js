@@ -1,9 +1,14 @@
 import React from 'react';
 import bruceContact from '../images/bruceContactPic.png';
+import {Link} from 'react-router-dom';
+import logoPic from '../images/EH logo.jpg';
 
 function Contact(props) {
     return (
         <div id="totalContact">
+        {/* <div className="logoDiv">
+            <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
+          </div> */}
 
         <header className="contactHeader">
             <h2>Contact Us</h2>
