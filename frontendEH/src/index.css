@@ -4,9 +4,10 @@
 
 /* NAVBAR STYLES */
 /* NEED TO SET UP MEDIA QUERY FOR MENU: MENU SHOULD REDUCE INTO TRIPPLE LINE IMG AFTER MAX-WIDTH=~500 */
+
+
+
 #navLogo{
-  /* display: flex;  
-  align-self: center; */
   height: 20vh;
   width: auto;
 }
@@ -36,16 +37,7 @@ nav{
 .navbar-list a:hover{
   color: cornflowerblue;
 }
-/* @media (max-width: 500px){
-  nav{
-      height: 35vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 1vh;
-  }
-} */
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .navbar-list a {
       text-align: center;
       font-size: 10px;
@@ -57,7 +49,7 @@ nav{
     justify-content: space-around;
     margin-right: 4vw;
 }
-}
+} */
 
 .carouselArt{
   margin-top: 25px;
@@ -113,6 +105,8 @@ nav{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
   Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color:  rgba(211, 211, 211, 0.397);
+  /* background: linear-gradient(to right, #dedede 0%, #bddaf9 100%); */
+  /* background: linear-gradient(to top left, #99aecc 0%, #f2f2f2 100%); */
   padding: 1px;
 }
 .homeSection2 h2{
@@ -312,6 +306,10 @@ swal-title{
   margin-left: -60px;
   list-style: circle;
 }
+#flatBannerB{
+  width: 100%;
+  height: auto;
+}
 
 
 
@@ -384,7 +382,23 @@ swal-title{
 }
 
 /* CASE MANAGERS PAGE STYLES */
+.CMHeads{
+  font-weight: 300;
+}
+.CMpara{
+  font-weight: 200;
+}
+#CMimage{
+  height: 200px;
+  width: auto;
+}
+.CMsec1{
+  display: flex;
 
+}
+.CMsec1 article{
+  margin-left: 3vw;
+}
 
 /* REFERRING PHYSICIANS PAGE STYLES */
 #physIntro{
@@ -415,23 +429,31 @@ swal-title{
     width: 70vw;
   }
 }
-.physHeads{
+.physTotal p{
   font-weight: 200;
 }
-.bruceTeachPic{
-  height: 300px;
-  width: auto;
+.physTotal ol{
+  font-weight: 200;
 }
-@media (max-width: 700px){
+.physHeads{
+  font-weight: 300;
+}
+.bruceTeachPic{
+  height: 250px;
+  width: auto;
+  align-self: center;
+}
+@media (max-width: 600px){
   .bruceTeachPic{
   height: auto;
   width: 180px;
   align-self: center;
+  margin-top: 0px;
   }
 }
 .physSec1{
   display: flex;
-  margin-left: 30px;
+  margin: 0 10px 0 10px;
 }
 @media (max-width: 600px){
   .physSec1{
@@ -445,7 +467,7 @@ swal-title{
     display: flex;
     flex-direction: column;
     width: 50vw;
-    margin-left: 0px;
+    margin-right: 10vw;
   }
   .physSec3Art{
     flex-direction: column;
@@ -462,7 +484,7 @@ swal-title{
   text-align: centlefter;
 }
 .physSecArt{
-  margin-left: 40px;
+  margin-left: 30px;
   width: 60vw;
   align-self: center;
 }
@@ -530,3 +552,42 @@ footer{
 
 
 /* PRACTICING HAMBURGER MENU STYLES... */
+
+/* span{
+  color: red;
+} */
+#burgerBars{
+  font-size: 26px;
+  line-height: 20px;
+  display: none;
+  width: 26px;
+  float: left;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  /* margin: 0 10px 0 0; */
+}
+#toggle{
+  display: none;
+}
+@media (max-width: 600px){
+  #burgerBars{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  #menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8vw;
+  }
+}

@@ -3,10 +3,10 @@ import React from 'react';
 import placeHold from '../images/Placeholder Photo.jpg';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
-
+import needID from '../images/needIDconsult.png';
 function Physicians(props) {
     return (
-        <div>
+        <div className="physTotal">
           <div className="logoDiv">
             <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
           </div>
@@ -16,7 +16,7 @@ function Physicians(props) {
           </section>
 
           <section className="physSec1">
-            <img src={placeHold} alt="Dr. Ruben teaching" className="bruceTeachPic" />
+            <img src={needID} alt="Dr. Ruben teaching" className="bruceTeachPic" />
             <article className="physSecArt">
             <h3 class="physHeads">Doctor Referrals are Important to Us!</h3>
             <p>If you are a doctor and need a consult on a patient, simply call our office and we will make every effort to see your patient within a 48 hour period. Oftentimes, our referring doctors send their patients right over to us the same day. You can count on our staff to fit your patient into our schedule as quickly as possible. </p>

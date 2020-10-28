@@ -3,7 +3,6 @@ import baseURL from './config.js'
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 
-
 console.log(baseURL)
 
 const token = window.localStorage.getItem('token')

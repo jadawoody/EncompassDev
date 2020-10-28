@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
-
+import treatBanner from '../images/treatmentPlans.png'
 function Services(props) {
     return (
      <div className="serviceTotal">
@@ -16,7 +16,7 @@ function Services(props) {
             <h3>at Encompass HealthCare & Wound Medicine</h3>
             <p>Our team strives to create treatment plans that work for you! We've carefully cultivated a broad set of treatments, services and care options in order to offer a truly comprehensive healthcare facility.</p>
         </header>
-
+        <img src={treatBanner} alt="banner with staff at work" id="flatBannerB" />
         <h3 className="servIntroLine">Our Core Services</h3>
         <div className="divOfSec">
         <section className="servSec1">

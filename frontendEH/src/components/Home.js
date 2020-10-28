@@ -15,7 +15,7 @@ import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import swal from 'sweetalert';
-
+import kittyBanner from '../images/qualCareBan6.jpg';
 // import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 
 function Home(props) {
@@ -41,6 +41,9 @@ function Home(props) {
             </div>
             <div>
                 <img src={insuranceBanner} alt="text about our insurance info" className="bannerPic"/>
+            </div>
+            <div>
+                <img src={kittyBanner} alt="kitty works on patient foot" className="bannerPic"/>
             </div>
 {/* Try to prevent default of thumbs being generated at bottom of carousel. Also try to get rid of numbers on top right of carousel!! */}
         </Carousel>
