@@ -1,6 +1,8 @@
 import React from 'react';
+import operatingPic from '../images/ultra.JPG';
+
 // import bruceTeaches from '';
-import placeHold from '../images/Placeholder Photo.jpg';
+import placeHold from '../images/placeholder 2.jpg';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
 import needID from '../images/needIDconsult.png';
@@ -46,7 +48,7 @@ function Physicians(props) {
             <li>Fever</li>
         </ol>
         </div>
-        <img src={placeHold} className="physSec3Pic" alt="" />
+        <img src={operatingPic} className="physSec3Pic" alt="" />
         </article>
 
         <article className="physSec3Art">

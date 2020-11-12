@@ -2,7 +2,8 @@ import React from 'react';
 import bruceContact from '../images/bruceContactPic.png';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
-
+import Location from './Location';
+import EHonMap from '../images/mapEHGoogle.png';
 function Contact(props) {
     return (
         <div id="totalContact">
@@ -13,8 +14,10 @@ function Contact(props) {
         <header className="contactHeader">
             <h2>Contact Us</h2>
         </header>
+        <img src={bruceContact} alt="bruce with phone number & site url" className="bruceContactPic"/>
+
+        <section id="contactSect1">
         <div className="contactDiv1">
-            <img src={bruceContact} alt="bruce with phone number & site url" className="bruceContactPic"/>
             <h5>Location</h5> 
             <p>Encompass HealthCare & Wound Medicine</p>
             <p>2300 Haggerty Road, Suite 1190</p>
@@ -27,7 +30,12 @@ function Contact(props) {
             <h5>Hours</h5>
             <p>Mon-Fri: 8am-5pm | Sat & Sun 8am-12pm</p>
         </div>
-
+        <img src={EHonMap} id="EHonMap" alt="encompass healthcare on map"/>
+        </section>
+          {/* <article>
+              <Location/>
+          </article> */}
+          
         </div>
     );
 }

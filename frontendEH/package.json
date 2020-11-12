@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "blog-template": "^1.0.1",
+    "google-map-react": "^2.1.8",
     "hamburger-menu": "^0.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -15,6 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-simple-image-slider": "^1.0.4",
+    "social-media-icons-react": "^1.1.2",
     "sweetalert": "^2.1.2",
     "vanilla-hamburger": "^0.2.3"
   },

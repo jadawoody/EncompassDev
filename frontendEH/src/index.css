@@ -158,15 +158,20 @@ nav{
   height: 100px;
   width: auto;
 }
-@media{}
 .eleGroup p{
   font-size: 14px;
   font-weight: 300;
   width: 25vw;
 }
-@media (max-width:500px){
+@media (max-width:600px){
   .eleGroup p{
     width: 70vw;
+  }
+  .homeSection1 p{
+    font-size: 12px;
+  }
+  .homeSection3 p{
+    font-size: 12px;
   }
 }
 .eleGroup a{
@@ -208,14 +213,7 @@ nav{
 swal-title{
   font-size: 5px;
 }
-/* .serviceButton{
-  width: 90px;
-  color: white;
-  background-color: #101064c7;
-  border-radius: 2%;
-  border: darkgray  3px;
-  border-style: double;
-} */
+
 
 /* SERVICES PAGE STYLES */
 .serviceTotal{
@@ -497,7 +495,7 @@ swal-title{
   justify-content: space-around;
 }
 .physSec3Pic{
-  width: 250px;
+  width: 380px;
   height: auto;
 }
 .physBrick{
@@ -508,6 +506,54 @@ swal-title{
   margin-left: 10px;
 }
 
+
+/* BLOG PAGE STYLES */
+.blogSect2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+  /* font-size: 16px; */
+}
+.blogSect2 h2 {
+  font-weight: 400;
+}
+.eachBlogDiv{
+  margin-left: 20px;
+}
+.eachBlogBigDiv{
+  display: flex;
+  align-items: center;
+}
+.eachBlogBigDiv img{
+  height: auto;
+  width: 200px;
+}
+.eachBlogDiv h3{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: -10px;
+}
+.eachBlogDiv h4{
+  font-size: 12px;
+  font-weight: 150;
+  margin-bottom: -15px;
+}
+.eachBlogDiv h5{
+  font-size: 15px;
+  font-weight: 300;
+}
+.eachBlogDiv p{
+  font-size: 12px;
+  font-weight: 200;
+}
+.readMoreLink{
+  text-decoration: none;
+  color: black;
+}
+.readMoreLink:hover{
+  color: cornflowerblue;
+}
 
 
 
@@ -537,7 +583,28 @@ swal-title{
   font-size: 14px;
   font-weight: 250;
 }
-
+#EHonMap{
+  height: auto;
+  width: 200px;
+  margin: 15px 0 0 10vw;
+  border: darkgrey solid 5px;
+}
+#contactSect1{
+  display: flex;
+}
+@media (max-width: 600px){
+  #contactSect1{
+    display: flex;
+    flex-direction: column;
+  }
+  #EHonMap{
+    height: auto;
+    width: 70vw;
+    align-self: left;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
 
 /* FOOTER STYLES */
 footer{
@@ -546,16 +613,17 @@ footer{
   font-weight: 100;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+}
+#footerImg{
+  height: auto;
+  width: 45px;
+  padding: 0 10px 0 10px;
 }
 
 
 
-/* PRACTICING HAMBURGER MENU STYLES... */
 
-/* span{
-  color: red;
-} */
+/* PRACTICING HAMBURGER MENU STYLES... */
 #burgerBars{
   font-size: 26px;
   line-height: 20px;

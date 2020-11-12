@@ -19,23 +19,26 @@ const API = axios.create({ withCredentials: true, baseURL ,  headers: { Authoriz
 
 
 const actions = {
-  getUser: async () => {
-    return await API.get(`/user`, resetHead())
+  // getUser: async () => {
+  //   return await API.get(`/user`, resetHead())
+  // },
+  // signUp: async (user) => {
+  //   let res = await API.post('/signup', user, resetHead())
+  //   window.localStorage.setItem('token', res?.data?.token)
+  //   return res
+  // },
+  // logIn: async (user) => {
+  //   let res = await API.post('/login', user, resetHead())
+  //   window.localStorage.setItem('token', res?.data?.token)
+  //   return res
+  // },
+  // logOut: async () => {
+  //   window.localStorage.removeItem('token')
+  //   return await API.get('/logout', resetHead())
+  // }
+  getBlogs: async (blogs) => {
+    return await API.get(`/getBlogs`, resetHead());
   },
-  signUp: async (user) => {
-    let res = await API.post('/signup', user, resetHead())
-    window.localStorage.setItem('token', res?.data?.token)
-    return res
-  },
-  logIn: async (user) => {
-    let res = await API.post('/login', user, resetHead())
-    window.localStorage.setItem('token', res?.data?.token)
-    return res
-  },
-  logOut: async () => {
-    window.localStorage.removeItem('token')
-    return await API.get('/logout', resetHead())
-  }
 };
 
 API.interceptors.response.use((response) => response, (error) => { 

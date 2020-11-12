@@ -1,6 +1,5 @@
 import React, { useState, useEffect, onChange } from 'react';
 import actions from '../api/index';
-import triple from '../images/triple.jpeg';
 import ptPic from '../images/triple.jpeg';
 import ele4 from '../images/ele4.png';
 import ele2 from '../images/ele2.png';
@@ -11,19 +10,13 @@ import covidBanner from '../images/covidFall2020.jpg';
 import EHangleBanner from '../images/teleMedFall2020Banner.jpg';
 import HBOTpic from '../images/HBOT.jpg';
 import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
-// import SimpleImageSlider from "react-simple-image-slider";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import swal from 'sweetalert';
 import kittyBanner from '../images/qualCareBan6.jpg';
-// import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 
 function Home(props) {
-    // const funzone = [
-    //     {url: "images/bannerTrial2.jpg"},
-    //     {url: "images/web size covid banner.png"}
-    // ];
-    // swal("During the COVID-19 pandemic, we're continuing to bring you safe and thoughtful care 7 days/week.", "Under certain circumstances, we can conduct a telemedicine consult and help you get healthy from the safety of your home way.", "success")
+    
     return (
         <div>
         
@@ -37,14 +30,15 @@ function Home(props) {
                 <img src={covidBanner} alt="our covid response" className="bannerPic"/>
             </div>
             <div>
+                <img src={kittyBanner} alt="kitty works on patient foot" className="bannerPic"/>
+            </div>
+            <div>
                 <img src={EHangleBanner} alt="our covid response" className="bannerPic"/>
             </div>
             <div>
                 <img src={insuranceBanner} alt="text about our insurance info" className="bannerPic"/>
             </div>
-            <div>
-                <img src={kittyBanner} alt="kitty works on patient foot" className="bannerPic"/>
-            </div>
+            
 {/* Try to prevent default of thumbs being generated at bottom of carousel. Also try to get rid of numbers on top right of carousel!! */}
         </Carousel>
         </article>
