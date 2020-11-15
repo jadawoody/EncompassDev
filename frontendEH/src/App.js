@@ -52,10 +52,10 @@ function App(props) {
       </Switch>
       <footer>
         <div>
-          <a href={`https://www.facebook.com/EncompassHealthCare/`}><img src={fbIcon} alt="" id="footerImg"/></a>
-          <a href={`https://www.linkedin.com/company/encompasshealthcare`}><img src={linkIcon} alt="" id="footerImg"/></a>
-          <a href={`https://www.youtube.com/encompasshealthcare`}><img src={ytIcon} alt="" id="footerImg"/></a>
-          <a href={`https://mailchi.mp/encompasshealthcare/joinus`}><img src={emailicon} alt="" id="footerImg"/></a>
+          <a href={`https://www.facebook.com/EncompassHealthCare/`} target="_blank" ><img src={fbIcon} alt="" id="footerImg"/></a>
+          <a href={`https://www.linkedin.com/company/encompasshealthcare`} target="_blank" ><img src={linkIcon} alt="" id="footerImg"/></a>
+          <a href={`https://www.youtube.com/encompasshealthcare`} target="_blank" ><img src={ytIcon} alt="" id="footerImg"/></a>
+          <a href={`https://mailchi.mp/encompasshealthcare/joinus`} target="_blank" ><img src={emailicon} alt="" id="footerImg"/></a>
         </div>
         <p>© 2020 Encompass HealthCare & Wound Medicine | Designed by Jada Woody</p>
         <p>2300 Haggerty Road, Suite 1190 | West Bloomfield, Michigan 48323 | (248)624-9800</p>
