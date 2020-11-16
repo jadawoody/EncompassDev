@@ -1,6 +1,6 @@
 import axios from 'axios';
 import baseURL from './config.js'
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+// import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 
 console.log(baseURL)
@@ -44,13 +44,13 @@ const actions = {
   },
 };
 
-API.interceptors.response.use((response) => response, (error) => { 
-  console.error(error?.response?.data)
-  if(error?.response?.data.name !== "JsonWebTokenError" )
-    NotificationManager.error(String(error?.response?.data.message))
-  else
-    NotificationManager.error("Please signup or login")
+// API.interceptors.response.use((response) => response, (error) => { 
+//   console.error(error?.response?.data)
+//   if(error?.response?.data.name !== "JsonWebTokenError" )
+//     NotificationManager.error(String(error?.response?.data.message))
+//   else
+//     NotificationManager.error("Please signup or login")
 
-})
+// })
 
 export default actions;

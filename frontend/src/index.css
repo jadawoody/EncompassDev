@@ -30,7 +30,7 @@ nav{
 .navbar-list a{
   color: black;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   text-align: center;
 }
@@ -114,7 +114,7 @@ nav{
   font-weight: 200;
 }
 .homeSection2 p{
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 100;
   width: 60%;
   padding-left: 20%;
@@ -159,7 +159,7 @@ nav{
   width: auto;
 }
 .eleGroup p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   width: 25vw;
 }
@@ -209,7 +209,7 @@ nav{
   font-weight: 200;
 }
 .homeSection5 p{
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 100;
   width: 400px;
   margin-top: -8px;
