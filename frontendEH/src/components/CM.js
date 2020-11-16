@@ -5,12 +5,12 @@ import CMPic from '../images/case-manager (1).jpg';
 
 function CM(props) {
     return (
-        <div>
+        <div className="totalCMDiv">
         <div className="logoDiv">
             <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
-          </div>
+        </div>
           
-          <section className="physIntroSection">
+          <section className="CMIntroSection">
           <h2 className="CMHeads">For Our Referring Case Managers</h2>
           <p className="CMpara">Good news! At Encompass Healthcare, we work regularly and closely with Case Managers all over the state of Michigan! Because we are an outpatient office rather than a hospital, we offer tremendous flexibility for the nurse case managers' and patients' schedules. </p>
           </section>

@@ -12,6 +12,7 @@ import fbIcon from './images/iconRound1.jpg';
 import linkIcon from './images/iconRound2.jpg';
 import ytIcon from './images/iconRound3.jpg';
 import emailicon from './images/iconRound4 (1).jpg';
+import BlogDetails from './components/BlogDetails';
 
 function App(props) {
   return (
@@ -49,6 +50,7 @@ function App(props) {
         <Route exact path='/Physicians' render={() => <Physicians/>} />
         <Route exact path='/Blog' render={(props) => <Blog {...props} />} />
         <Route exact path='/ContactUs' render={() => <Contact/>} />
+        <Route exact path='/ReadingBlog' render={() => <BlogDetails/> } />
       </Switch>
       <footer>
         <div>

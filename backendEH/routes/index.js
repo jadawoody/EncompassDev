@@ -21,5 +21,14 @@ router.get("/getBlogs", (req, res) => {
     //set the result to the blogs im pulling from the DB
     res.json({ blogs });
   });
+
+  //get movie details
+router.get("/blogs/:id", (req, res) => {
+  console.log(req.params.id);
+  Blogs.findById(req.params.id).then((blogs) => {
+    res.json({ blogs });
+  });
+});
+
 });
 module.exports = router;

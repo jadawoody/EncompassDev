@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
 import axios from "axios";
 import actions from "../api";
+// import blogDetails from './BlogDetails';
 
 // GOALS FOR BLOG PAGE:
 
@@ -14,16 +15,25 @@ import actions from "../api";
 function Blog(props) {
 const [blog, setBlog] = useState([]);
 useEffect(() => {
-  console.log("Its Almost Halloween!");
+  // console.log("Its Almost Halloween!");
   async function getBlogs() {
     let res = await actions.getBlogs("/api");
     // let res = await axios.get("http://localhost:5000/blogs");
-    console.log(res);
+    // console.log(res);
     setBlog(res?.data?.blogs)
   }
   getBlogs();
 }, []);
-console.log(blog, "hello")
+// console.log(blog.body)
+
+
+const showDetails = () => {
+  return blog.map((eachblog) => {
+    return(
+      <p>{eachblog.body}</p>
+    )
+  })
+}
 
 const showBlogs = () => {
   return blog.map((eachblog) => {
@@ -36,13 +46,19 @@ const showBlogs = () => {
         <h3>{eachblog.title}</h3>
         <h4>{eachblog.datePublished} </h4>
         <h5>{eachblog.summary}</h5>
+        {/* <p>{eachblog.body}</p> */}
         {/* <p>- {eachblog.author}</p> */}
-        <Link to={`/Blog/${blog._id}`} className="readMoreLink">Read More</Link>
+        {/* <button onclick="BlogDetails()" id="myBtn">Read more</button> */}
+
+        <Link to={`/blog/${blog._id}`}  className="readMoreLink">Read More</Link>
+
+        {/* <Link onclick={showDetails()} className="readMoreLink" >Read More</Link> */}
       </div>
       </div>
     )
   })
 }
+
 
 
     return (
@@ -62,6 +78,7 @@ const showBlogs = () => {
 
           <div>
             {showBlogs()}
+            {/* {showDetails()} */}
           </div>
         </div>
     );

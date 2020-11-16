@@ -173,6 +173,13 @@ nav{
   .homeSection3 p{
     font-size: 12px;
   }
+  #sec5p{
+    width: 85vw;
+  }
+  .homeSection2 p{
+    width: 80vw;
+    margin-left: -11vw;
+  }
 }
 .eleGroup a{
   text-decoration: none;
@@ -238,7 +245,7 @@ swal-title{
   font-weight: 200;
   text-align: center;
   margin-top: -20px;
-  width: 450px;
+  width: 80vw;
 }
 .servIntroLine{
   font-size: 30px;
@@ -321,7 +328,7 @@ swal-title{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -6vh;
+  margin-top: -3vh;
 }
 .teamIntro h2{
   text-align: center;
@@ -380,6 +387,37 @@ swal-title{
 }
 
 /* CASE MANAGERS PAGE STYLES */
+@media (max-width: 700px){
+.totalCMDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 6vw;
+}
+.CMsec1{
+  flex-direction: column;
+  align-items: center;
+}
+.CMsec1 article{
+  margin-left: none;
+  padding-left: none;
+}
+}
+
+.CMIntroSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15px;
+  text-align: center;
+}
+.CMIntroSection p{
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -15px;
+  width: 80vw;
+}
 .CMHeads{
   font-weight: 300;
 }
@@ -392,7 +430,6 @@ swal-title{
 }
 .CMsec1{
   display: flex;
-
 }
 .CMsec1 article{
   margin-left: 3vw;
@@ -524,6 +561,13 @@ swal-title{
 .eachBlogBigDiv{
   display: flex;
   align-items: center;
+  margin-bottom: 2vh;
+}
+@media (max-width: 600px){
+  .eachBlogBigDiv{
+    flex-direction: column;
+    margin-top: 5vh;
+  }
 }
 .eachBlogBigDiv img{
   height: auto;
@@ -542,6 +586,7 @@ swal-title{
 .eachBlogDiv h5{
   font-size: 15px;
   font-weight: 300;
+  margin-bottom: 8px;
 }
 .eachBlogDiv p{
   font-size: 12px;
@@ -558,12 +603,18 @@ swal-title{
 
 
 /* CONTACT US PAGE STYLES */
+@media (max-width: 600px){
+  .bruceContactPic{
+    height: auto;
+    width: 40vw;
+  }
+}
 #totalContact{
-  margin-left: 5vw;
+  margin-left: 8vw;
 }
 .bruceContactPic{
-  height: 250px;
-  width: auto;
+  height: auto;
+  width: 80vw;
 }
 .contactHeader h2{
   font-size: 40px;
@@ -591,6 +642,7 @@ swal-title{
 }
 #contactSect1{
   display: flex;
+  
 }
 @media (max-width: 600px){
   #contactSect1{
