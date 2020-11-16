@@ -44,13 +44,14 @@ function BlogDetails(props) {
           <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p>
       </section>
 
-      {/* <section className="blogSect2">
-          <h2>Blogs Coming Soon...Stay Tuned!</h2>
-      </section> */}
+      <section className="blogSect2">
+          <h2>Full Blog Pages Coming Soon...Stay Tuned!</h2>
+      </section>
 
-      <div>
+      {/* <div>
         {showBlogs()}
-      </div>
+      </div> */}
+
     </div>
 );
 
