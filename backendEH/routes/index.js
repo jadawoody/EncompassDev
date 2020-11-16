@@ -23,8 +23,8 @@ router.get("/getBlogs", (req, res) => {
   });
 
   //get movie details
-router.get("/blogs/:id", (req, res) => {
-  console.log(req.params.id);
+router.get("/getBlogDetails/:id", (req, res) => {
+  console.log("bugsBunny");
   Blogs.findById(req.params.id).then((blogs) => {
     res.json({ blogs });
   });

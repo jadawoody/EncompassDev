@@ -402,6 +402,9 @@ swal-title{
   margin-left: none;
   padding-left: none;
 }
+#additionalDivCM{
+  margin-left: .5vw;
+}
 }
 
 .CMIntroSection{

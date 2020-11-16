@@ -15,25 +15,21 @@ import actions from "../api";
 function Blog(props) {
 const [blog, setBlog] = useState([]);
 useEffect(() => {
-  // console.log("Its Almost Halloween!");
   async function getBlogs() {
     let res = await actions.getBlogs("/api");
-    // let res = await axios.get("http://localhost:5000/blogs");
-    // console.log(res);
     setBlog(res?.data?.blogs)
   }
   getBlogs();
 }, []);
-// console.log(blog.body)
 
 
-const showDetails = () => {
-  return blog.map((eachblog) => {
-    return(
-      <p>{eachblog.body}</p>
-    )
-  })
-}
+// const showDetails = () => {
+//   return blog.map((eachblog) => {
+//     return(
+//       <p>{eachblog.body}</p>
+//     )
+//   })
+// }
 
 const showBlogs = () => {
   return blog.map((eachblog) => {
@@ -46,13 +42,8 @@ const showBlogs = () => {
         <h3>{eachblog.title}</h3>
         <h4>{eachblog.datePublished} </h4>
         <h5>{eachblog.summary}</h5>
-        {/* <p>{eachblog.body}</p> */}
-        {/* <p>- {eachblog.author}</p> */}
-        {/* <button onclick="BlogDetails()" id="myBtn">Read more</button> */}
-
-        <Link to={`/blog/${blog._id}`}  className="readMoreLink">Read More</Link>
-
-        {/* <Link onclick={showDetails()} className="readMoreLink" >Read More</Link> */}
+        {/* <Link to={`/ReadingBlog/${blog._id}`}  className="readMoreLink">Read More</Link> */}
+        <Link to={`/ReadingBlog`} className="readMoreLink" >Read More</Link>
       </div>
       </div>
     )
@@ -78,8 +69,9 @@ const showBlogs = () => {
 
           <div>
             {showBlogs()}
-            {/* {showDetails()} */}
           </div>
+                      {/* {showDetails()} */}
+
         </div>
     );
 }

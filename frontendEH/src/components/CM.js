@@ -17,14 +17,15 @@ function CM(props) {
 
           <section className="CMsec1">
           <img id="CMimage" src={CMPic} alt="caseManager with patient" />
-          <article >
+          <article id="additionalDivCM">
           <h3 className="CMHeads">We Appreciate the Importance of a Case Manager's Role!</h3>
           <p className="CMpara">Dr. Ruben, along with our entire staff, have taken the time to understand the roles, duties, and responsibilities Case Managers have as an essential liaison and advocate for patients. We know Case Managers need to access all reasonably necessary medical care and report back to insurance claim adjusters about your patients' treamtment. </p>
           </article>
           </section>
-
+        <div id="additionalDivCM">
         <h3 className="CMHeads">Encompass HealthCare & Wound Medicine is a full-service outpatient facility.</h3>
         <p className="CMpara">We are fortunate to offer centralized multidiscipline medical and surgical services in a disability modified single site location. Our office is uniquely modified to accommodate patients with high cervical spinal cord injuries and the consequential physical disabilities that might limit patient access in other outpatient settings.</p>
+        </div>
         </div>
     );
 }

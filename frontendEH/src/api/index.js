@@ -39,6 +39,9 @@ const actions = {
   getBlogs: async (blogs) => {
     return await API.get(`/getBlogs`, resetHead());
   },
+  getBlogDetails: async (blogs) => {
+    return await API.get(`/getBlogDetails`, resetHead());
+  },
 };
 
 API.interceptors.response.use((response) => response, (error) => { 
