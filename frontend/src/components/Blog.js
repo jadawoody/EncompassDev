@@ -58,7 +58,7 @@ const showBlogs = () => {
           <div className="logoDiv">
             <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
           </div>
-          <section className="teamIntro">
+          <section className="blogIntro">
               <h2>Encompass HealthCare Blog</h2>
               <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p>
           </section>
