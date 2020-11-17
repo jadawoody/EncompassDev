@@ -94,7 +94,7 @@ function Team(props) {
 
             <section className="Tsec1">
                 <div className="textBox1">
-                <h4>Peter</h4>
+                <h4>Peter Eshun</h4>
                 <p>Peter is our on-site Executive Chef! As a part of Dr. Ruben's initiative to provide a full-circle and complete care unit at Encompass, Peter provides nutritious meals for our patients and our staff each day! This is especially important for patients receiving IV antibiotics or medications. We provide protein rich meals, snacks, and shakes for these patients especially. Patients family members and care-takers are also welcome to enjoy Peter's wonderful food!</p>
                 </div>
                 <img src={peterHead} alt="Peter headshot" className="Tsec1Pic"/>

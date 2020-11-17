@@ -30,7 +30,7 @@ nav{
 .navbar-list a{
   color: black;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 2vh;
   font-weight: 300;
   text-align: center;
 }
@@ -91,7 +91,7 @@ nav{
   text-align: center;
   font-weight: 100;
   width: 50%;
-  font-size: 18px;
+  font-size: 3.5vh;
   font-style: italic;
   padding: 15px;
 }
@@ -131,7 +131,7 @@ nav{
   text-align: center;
   font-weight: 100;
   width: 70%;
-  font-size: 18px;
+  font-size: 3.5vh;
   font-style: italic;
   padding: 15px;
 }
@@ -347,11 +347,11 @@ swal-title{
 }
 .Tsec1 h4{
   font-weight: 300;
-  font-size: 20px;
+  font-size: 25px;
 }
 .Tsec1 p{
   font-weight: 100;
-  font-size: 14px;
+  font-size: 20px;
   margin-top: -15px;
 }
 .Tsec1Pic{
@@ -374,11 +374,11 @@ swal-title{
 }
 .Tsec2 h4{
   font-weight: 300;
-  font-size: 20px;
+  font-size: 25px;
 }
 .Tsec2 p{
   font-weight: 100;
-  font-size: 14px;
+  font-size: 20px;
   margin-top: -15px;
 }
 .Tsec2Pic{
