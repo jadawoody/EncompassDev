@@ -71,12 +71,12 @@ nav{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #opener{
-  font-weight: 100;
-  font-size: 24px;
+  font-weight: 200;
+  font-size: 4vh;
 }
 #opener2{
-  font-weight: 100;
-  font-size: 14px;
+  font-weight: 200;
+  font-size: 3vh;
   margin-top: -20px;
   margin-bottom: 25px;
 }
@@ -179,6 +179,14 @@ nav{
   .homeSection2 p{
     width: 80vw;
     margin-left: -11vw;
+  }
+  #opener{
+    font-size: 2vh;
+    margin-bottom: 24px;
+  }
+  #opener2{
+    font-size: 1.5vh;
+    margin-top: none;
   }
 }
 .eleGroup a{
@@ -385,6 +393,27 @@ swal-title{
   height: auto;
   width: 30vw;
 }
+@media (max-width: 700px){
+  .Tsec1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Tsec2{
+    display: flex;
+    flex-direction: column;
+  }
+  .Tsec1Pic{
+    height: auto;
+    width: 60vw;
+    margin-top: 4vh;
+  }
+  .Tsec2Pic{
+    height: auto;
+    width: 60vw;
+    margin-top: 4vh;
+
+  }
+}
 
 /* CASE MANAGERS PAGE STYLES */
 @media (max-width: 700px){
@@ -484,9 +513,13 @@ swal-title{
 @media (max-width: 600px){
   .bruceTeachPic{
   height: auto;
-  width: 180px;
+  width: 70vw;
   align-self: center;
   margin-top: 0px;
+  }
+  .physSec3Pic{
+    width: 30vw;
+    height: auto;
   }
 }
 .physSec1{
