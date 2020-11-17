@@ -249,7 +249,7 @@ swal-title{
   /* width: 650px; */
 }
 .servHeader p{
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 200;
   text-align: center;
   margin-top: -20px;
@@ -348,6 +348,7 @@ swal-title{
   width: 80vw;
   margin-top: -18px;
   font-weight: 200;
+  font-size: 18px;
 }
 .Tsec1{
   display: flex;
@@ -444,7 +445,7 @@ swal-title{
   text-align: center;
 }
 .CMIntroSection p{
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 100;
   text-align: center;
   margin-top: -15px;
@@ -481,11 +482,11 @@ swal-title{
 
 }
 .physIntroSection p{
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 100;
   text-align: center;
   margin-top: -15px;
-  width: 510px;
+  width: 75vw;
 }
 @media (max-width: 700px){
   .physIntroSection p{
