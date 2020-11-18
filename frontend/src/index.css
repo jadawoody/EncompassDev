@@ -712,8 +712,8 @@ swal-title{
   font-weight: 250;
 }
 #EHonMap{
-  height: auto;
-  width: 200px;
+  height: 50vh;
+  width: auto;
   margin: 15px 0 0 10vw;
   border: darkgrey solid 5px;
 }
