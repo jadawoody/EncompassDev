@@ -705,10 +705,11 @@ swal-title{
 }
 .contactDiv1 h5{
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .contactDiv1 p{
   margin-top: -10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 250;
 }
 #EHonMap{
