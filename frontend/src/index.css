@@ -748,6 +748,14 @@ footer{
   width: 45px;
   padding: 0 10px 0 10px;
 }
+#googleBizProf{
+  text-decoration: none;
+  color: black;
+}
+#googleBizProf:hover{
+  
+  color: cornflowerblue;
+}
 
 
 

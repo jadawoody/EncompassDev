@@ -29,6 +29,9 @@ function Contact(props) {
 
             <h5>Hours</h5>
             <p>Mon-Fri: 8am-5pm | Sat & Sun 8am-12pm</p>
+            <h5>Google</h5>
+            <a href="https://g.page/encompasshealthcare?gm" target="_blank" id="googleBizProf"><p>Click here to visit our Google Business Profile</p></a>
+            <p>Please leave us a review! We appreciate feedback from our patients!</p>
         </div>
         <img src={EHonMap} id="EHonMap" alt="encompass healthcare on map"/>
         </section>
