@@ -142,18 +142,25 @@ nav{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
   Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-@media (max-width: 500px){
+.homeSection4 h5{
+  font-size: 18px;
+}
+@media (max-width: 600px){
   .homeSection4 {
       display: flex;
       flex-direction: column;
       align-items: center;
   }
+  .homeSection4 h5{
+    font-size: 15px;
+  }
   .eleGroup{
     text-align: center;
-    padding-bottom: 15vh;
+    padding-bottom: 8vh;
     font-size: 13px;
   }
 }
+
 .element1{
   height: 100px;
   width: auto;
@@ -167,11 +174,24 @@ nav{
   .eleGroup p{
     width: 70vw;
   }
+  .homeSection1{
+    flex-direction: column;
+  }
   .homeSection1 p{
-    font-size: 12px;
+    font-size: 18px;
+    width: 70vw;
+  }
+  .homeSection1Pic{
+    width: 80vw;
+    height: auto;
+  }
+  .homeSection3{
+    flex-direction: column-reverse;
+    margin-top: 4vh;
   }
   .homeSection3 p{
-    font-size: 12px;
+    font-size: 18px;
+    width: 70vw;
   }
   #sec5p{
     width: 85vw;
@@ -196,6 +216,9 @@ nav{
 .eleGroup a:hover{
   color: cornflowerblue;
 }
+/* .eleTitle{
+  font-size: 20px;
+} */
 /* #elep{
   padding-top: 15px;
 } */

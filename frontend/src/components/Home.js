@@ -74,18 +74,18 @@ function Home(props) {
             <div className="homeSection4">
                 <article className="eleGroup">
                     <img src={ele4} alt="" className="element1"/>
-                    <h5>Infectious Disease Consults</h5>
+                    <h5 id="eleTitle">Infectious Disease Consults</h5>
                     <p>Dr. Ruben, our Infectious Disease Specialist, has healed countless patients by treating the patient as a whole, not just the symptoms. Infectious Disease Consults typically require a physician or case manager referral and are made available within 48 hours. Our state of the art outpatient infusion suite offers IV Antibiotics and Infusion Therapies available 7 days/week.</p>
                 </article>
                 <article className="eleGroup">
                     <img src={ele2} alt="" className="element1"/>
-                    <h5>Wound Care Services</h5>
-                    <p id="elep">Forget weekly debridements and painful treatments! Chronic wounds or wounds over 6 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the insdie out.</p>
+                    <h5 id="eleTitle">Wound Care Services</h5>
+                    <p id="elep">Forget weekly debridements and painful treatments! Chronic wounds or wounds over 6 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the inside out.</p>
                 </article>
                 <article className="eleGroup">
                     <img src={ele3} alt="" className="element1"/>
-                    <h5>Hyperbaric Medicine</h5>
-                    <p >We are equipped with hosipital-grade Individual/Monoplace Hyperbaric Chambers available for treating patients with indicated maladies. We have seen patients with bone infections, burns and other ailments present with marked improvements after carefully prescribed Hyperbaric Treatments. Find a full list of indications <Link to={`/Services`}>here</Link>.</p>
+                    <h5 id="eleTitle">Hyperbaric Medicine</h5>
+                    <p >We are equipped with hospital-grade Individual/Monoplace Hyperbaric Chambers available for treating patients with indicated maladies. We have seen patients with bone infections, burns and other ailments present with marked improvements after carefully prescribed Hyperbaric Treatments. Find a full list of indications <Link to={`/Services`}>here</Link>.</p>
                 </article>
             </div>
             <div class="homeSection5">
