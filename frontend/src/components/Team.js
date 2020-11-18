@@ -76,7 +76,7 @@ function Team(props) {
 
             <section className="Tsec1">
                 <div className="textBox1">
-                <h4>Marayna Puchalski</h4>
+                <h4>Marayna Battle</h4>
                 <p>Marayna is another one of our billing and insurance experts. She runs the billing department alongside Tia and is very helpful to patients who have questions about their coverage. You'll find Marayna at the front desk, helping patients with billing and insurance.</p>
                 </div>
                 <img src={`../images/marayna1.jpg`} alt="Marayna Headshot" className="Tsec1Pic"/>
