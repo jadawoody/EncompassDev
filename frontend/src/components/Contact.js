@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
 import Location from './Location';
 import EHonMap from '../images/mapEHGoogle.png';
-import GoogleMap from './GoogleMap';
 
 function Contact(props) {
     return (
