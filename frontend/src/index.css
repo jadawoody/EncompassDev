@@ -469,7 +469,7 @@ swal-title{
   text-align: center;
 }
 .CMIntroSection p{
-  font-size: 18px;
+  font-size: 3vh;
   font-weight: 100;
   text-align: center;
   margin-top: -15px;
@@ -477,13 +477,16 @@ swal-title{
 }
 .CMHeads{
   font-weight: 300;
+  font-size: 4vh;
 }
 .CMpara{
   font-weight: 200;
+  font-size: 3vh;
 }
 #CMimage{
   height: 200px;
   width: auto;
+  padding-top: 3vh;
 }
 .CMsec1{
   display: flex;
@@ -523,12 +526,15 @@ swal-title{
 }
 .physTotal p{
   font-weight: 200;
+  font-size: 3vh;
 }
 .physTotal ol{
   font-weight: 200;
+  font-size: 3vh;
 }
 .physHeads{
   font-weight: 300;
+  font-size: 4vh;
 }
 .bruceTeachPic{
   height: 250px;
@@ -714,15 +720,22 @@ swal-title{
   font-weight: 250;
 }
 #EHonMap{
-  height: 50vh;
+  height: 70vh;
   width: auto;
-  margin: 15px 0 0 10vw;
+  margin: 8vh 0 0 10vw;
   border: darkgrey solid 5px;
 }
 #contactSect1{
   display: flex;
-  
 }
+#phoneCall{
+  color: black;
+  text-decoration: none;
+}
+#phoneCall:hover{
+  color: cornflowerblue;
+}
+
 @media (max-width: 600px){
   #contactSect1{
     display: flex;

@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
 import Location from './Location';
 import EHonMap from '../images/mapEHGoogle.png';
+import GoogleMap from './GoogleMap';
+
 function Contact(props) {
     return (
         <div id="totalContact">
@@ -23,7 +25,7 @@ function Contact(props) {
             <p>2300 Haggerty Road, Suite 1190</p>
             <p>West Bloomfield, MI 48323</p>
             <h5>Phone</h5>
-            <p>(248)624-9800</p>
+            <a href="2486249800" id="phoneCall"><p>(248)624-9800</p></a>
             <h5>Fax</h5>
             <p>(248)624-9825</p>
 
@@ -31,9 +33,12 @@ function Contact(props) {
             <p>Mon-Fri: 8am-5pm | Sat & Sun 8am-12pm</p>
             <h5>Google</h5>
             <a href="https://g.page/encompasshealthcare?gm" target="_blank" id="googleBizProf"><p>Click here to visit our Google Business Profile</p></a>
-            <a href="https://g.page/encompasshealthcare/review?rc" target="_blank" id="googleBizProf"><p>Please leave us a review! We appreciate feedback from our patients!</p></a>
+            <h5>Please leave us a Review on Google</h5>
+            <a href="https://g.page/encompasshealthcare/review?rc" target="_blank" id="googleBizProf"><p>Click here! We appreciate feedback from our patients!</p></a>
         </div>
+        
         <img src={EHonMap} id="EHonMap" alt="encompass healthcare on map"/>
+        {/* <GoogleMap /> */}
         </section>
           {/* <article>
               <Location/>

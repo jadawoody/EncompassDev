@@ -18,5 +18,7 @@
     "url": "https://github.com/Tzikas/IronPlate/issues"
   },
   "homepage": "https://github.com/Tzikas/IronPlate#readme",
-  "dependencies": {}
+  "dependencies": {
+    "google-maps-react": "^2.0.6"
+  }
 }
