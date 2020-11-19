@@ -1,6 +1,6 @@
 import React, { useState, useEffect, onChange } from 'react';
 import actions from '../api/index';
-import ptPic from '../images/triple.jpeg';
+import ptPic from '../images/bruceLizAbla.jpg';
 import ele4 from '../images/ele4.png';
 import ele2 from '../images/ele2.png';
 import ele3 from '../images/ele3.png';
