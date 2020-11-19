@@ -235,6 +235,9 @@ nav{
   flex-direction: column;
   align-items: center;
 }
+#sec5p{
+  width: 85vw;
+}
 .homeSection5 h3{
   font-size: 4vh;
   font-weight: 300;
