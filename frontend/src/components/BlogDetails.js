@@ -3,6 +3,8 @@ import React, {useState, useEffect} from 'react';
 import actions from '../api';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
+ 
+//this page is routed as /ReadingBlog
 
 function BlogDetails(props) {
 

@@ -22,7 +22,7 @@ function Team(props) {
 
            <section className="Tsec1">
                 <div className="textBox1">
-                <h4>Dr. Bruce E. Ruben</h4>
+                <h4>Bruce E. Ruben, MD</h4>
                 <p>Dr. Ruben is our Medical Director, owner, and founder and is triple board certified in Internal Medicine, Infectious Disease, and Undersea Hyperbaric Medicine. Dr. Ruben developed Encompass HealthCare in order to assist physicians by providing excellent specialty health care and to help patients avoid the risk and cost of hospital visits!  Dr. Ruben's goal has always been to create a comprehensive outpatient center for infection and wound care, precluding hospitilization. </p>
                 </div>
                 <img src={BER} alt="Dr. Bruce Ruben Headshot" className="Tsec1Pic"/>
@@ -31,7 +31,7 @@ function Team(props) {
             <section className="Tsec2">
                 <img src={placeHold} alt="Frazie Headshot" className="Tsec2Pic"/>
                 <div className="textBox2">
-                <h4>Dr. Marius Frasie, MD</h4>
+                <h4>Marius Frasie, MD</h4>
                 <p>Dr. Frasie is our second physician at Encompass HealthCare. He often covers our patient care and appointments when Dr. Ruben is away or unavailable. Dr. Frasie is based in Rochester, Michigan, graduated from Wayne State University's Medical School in 1995, and specializes in Internal Medicine. Dr. Frasie brings excellent patient care and expertise each day at Encompass HealthCare!</p>
                 </div>
             </section>
