@@ -38,7 +38,8 @@ function Services(props) {
         
           
             <article className="servArt">
-                <h5>Hyperbaric Oxygen Treatment (HBOT)</h5>
+                <h5>Hyperbaric Oxygen </h5>
+                <h5 className="hbotServ">Treatment (HBOT)</h5>
                 <p>We offer Hyperbaric Medicine to patients with indicated maladies. Some of the more common uses are for severe burns, bone infections, chronic or infected wounds, arterial insufficiencies, and compartment syndrome. To get access to our Hyperbaric Chambers, you must first have it prescribed by Dr. Ruben or a referring physician/healthcare provider.</p>
             </article>
             </section> 

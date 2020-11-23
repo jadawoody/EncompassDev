@@ -22,7 +22,6 @@ function Home(props) {
         
         <article className="carouselArt">
         <Carousel autoPlay={true} infiniteLoop={true} onChange={onChange} showThumbs={false} showStatus={false} interval={3200} >
-        {/* figure out how to AUTO shift between images */}
             <div>
                 <img src={bannerTrial2} alt="bannerWithDr.Ruben" className="bannerPic"/>
             </div>
@@ -39,7 +38,6 @@ function Home(props) {
                 <img src={insuranceBanner} alt="text about our insurance info" className="bannerPic"/>
             </div>
             
-{/* Try to prevent default of thumbs being generated at bottom of carousel. Also try to get rid of numbers on top right of carousel!! */}
         </Carousel>
         </article>
             {/* <SimpleImageSlider width={window} height={300} images={funzone} /> */}

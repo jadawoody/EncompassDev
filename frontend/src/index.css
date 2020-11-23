@@ -283,7 +283,7 @@ swal-title{
   width: 80vw;
 }
 .servIntroLine{
-  font-size: 6vh;
+  font-size: 7vh;
   font-weight: 200;
   margin-bottom: -10px;
   text-align: center;
@@ -327,17 +327,26 @@ swal-title{
     flex-direction: column;
   }
 }
+.hbotServ{
+  margin-top: -8vh;
+}
 .servArt h5{
-  font-size: 20px;
+  font-size: 5vh;
   font-weight: 200;
+}
+.servArt p{
+  font-size: 4vh;
 }
 .servArt{
   margin-left: 20px;
   margin-right: 20px;
   border-bottom: 1px solid gray;
 }
+.servSec4{
+  margin-left: 12vw;
+}
 .servSec4 h5{
-  font-size: 20px;
+  font-size: 5vh;
   font-weight: 200;
   margin-left: -40px;
 }
@@ -345,6 +354,9 @@ swal-title{
   margin-top: -20px;
   margin-left: -60px;
   list-style: circle;
+}
+.servSec4 li{
+  font-size: 4vh;
 }
 #flatBannerB{
   width: 100%;
@@ -500,7 +512,7 @@ swal-title{
 
 /* REFERRING PHYSICIANS PAGE STYLES */
 #physIntro{
-  font-size: 35px;
+  font-size: 6vh;
   font-weight: 200;
   text-align: center;
 }
@@ -512,7 +524,7 @@ swal-title{
 
 }
 .physIntroSection p{
-  font-size: 18px;
+  /* font-size: 3vh; */
   font-weight: 100;
   text-align: center;
   margin-top: -15px;
@@ -529,11 +541,11 @@ swal-title{
 }
 .physTotal p{
   font-weight: 200;
-  font-size: 3vh;
+  font-size: 3.5vh;
 }
 .physTotal ol{
   font-weight: 200;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 .physHeads{
   font-weight: 300;
@@ -551,10 +563,10 @@ swal-title{
   align-self: center;
   margin-top: 0px;
   }
-  .physSec3Pic{
-    width: 30vw;
+  /* .physSec3Pic{
+    width: 50vw;
     height: auto;
-  }
+  } */
 }
 .physSec1{
   display: flex;
@@ -602,8 +614,9 @@ swal-title{
   justify-content: space-around;
 }
 .physSec3Pic{
-  width: 380px;
-  height: auto;
+  height: 250px;
+  width: auto;
+  align-self: center;
 }
 .physBrick{
   width: 40vw;
@@ -697,9 +710,7 @@ swal-title{
     width: 40vw;
   }
 }
-#totalContact{
-  /* margin-left: 3vw; */
-}
+
 .bruceContactPic{
   height: auto;
   width: 80vw;
