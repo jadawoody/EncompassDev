@@ -44,7 +44,7 @@ function Services(props) {
             </article>
             </section> 
             <section className="servSec3">
-            <article className="servArt">
+            <article className="servArt" id="servArtVen">
                 <h5>Venous Ablation</h5>
                 <p>Offered for patients with venous insufficiencies and venous stasis wounds. At Encompass HealthCare, we use a mechanical ablating system called <a href={`https://clarivein.com/`}>ClariVein.</a> This allows Dr. Ruben and our ultrasound technician, Liz, to isolate the problem vein all the way to the root at the ankle, without jeopardizing important nerves and tissues! </p>
             </article>

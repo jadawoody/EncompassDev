@@ -326,6 +326,16 @@ swal-title{
     display: flex;
     flex-direction: column;
   }
+  
+}
+@media (min-width: 600px){
+  .servArt p{
+    width: 40vw;
+  }
+  #servArtVen{
+    /* margin-left: 10vw; */
+    /* align-self: center; */
+    }
 }
 .hbotServ{
   margin-top: -8vh;
@@ -341,6 +351,9 @@ swal-title{
   margin-left: 20px;
   margin-right: 20px;
   border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .servSec4{
   margin-left: 12vw;
@@ -743,11 +756,11 @@ swal-title{
 }
 .contactDiv1 h5{
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 4vh;
 }
 .contactDiv1 p{
   margin-top: -10px;
-  font-size: 16px;
+  font-size: 3vh;
   font-weight: 250;
 }
 #EHonMap{
