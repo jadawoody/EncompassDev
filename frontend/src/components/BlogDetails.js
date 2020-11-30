@@ -1,39 +1,36 @@
 import React, {useState, useEffect} from 'react';
-// import axios from 'axios';
+import axios from 'axios';
 import actions from '../api';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
  
-//this page is routed as /ReadingBlog
+
+
 
 function BlogDetails(props) {
 
-  const [blog, setBlog] = useState([]);
+
+  const [blogDetail, setBlogDetail] = useState([]);
   useEffect(() => {
-    async function getBlogs() {
-      let res = await actions.getBlogs("/api");
-      setBlog(res?.data?.blogs)
+    async function getBlogDetails() {
+      let res = await actions.getBlogDetails(props.match.params.id);
+    console.log(res.data.blogs)
+      setBlogDetail(res?.data.blogs);
     }
-    getBlogs();
+      getBlogDetails();
   }, []);
 
-  const showBlogs = () => {
-    console.log("christmasMusic")
-    return blog.map((eachblog) => {
-      return (
-        <div className="eachBlogBigDiv">
-        <article>
-          <img src={eachblog.image} alt="blog pic"/>
-        </article>
-        <div className="eachBlogDiv">
-          <h3>{eachblog.title}</h3>
-          <h4>{eachblog.body} </h4>
-          
-        </div>
-        </div>
-      )
-    })
-  }
+//   console.log(props);
+//   let details = props.blogs.find((eachblog) => {
+//     return eachblog === props.match.params.id; 
+//   });
+
+// return(
+//   <div>
+//     {details.title}
+//     {details.body}
+//   </div>
+// )
 
   return (
     <div>
@@ -46,9 +43,12 @@ function BlogDetails(props) {
           <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p>
       </section>
 
-      <section className="blogSect2">
+      {/* <section className="blogSect2">
           <h2>Full Blog Pages Coming Soon...Stay Tuned!</h2>
-      </section>
+      </section> */}
+      <img src={blogDetail.image} alt="blog pic"/>
+      <h2>{blogDetail.title}</h2>
+      <p>{blogDetail.body}</p>
 
       {/* <div>
         {showBlogs()}
@@ -57,25 +57,6 @@ function BlogDetails(props) {
     </div>
 );
 
-  
-  // const [blog, setBlog] = useState([]);
-
-  // useEffect(() => {
-  //   async function getBlogDetails() {
-  //     let res = await actions.getBlogDetails("/api");
-  //     console.log("rabbitHole");
-  //     setBlog(res?.data?.blog);
-  //   }
-
-  //   getBlogDetails();
-  // }, []);
-
-  // return (
-  //   <div>
-  //     <p>Title: {blog?.title} </p>
-  //     <p>Description: {blog?.body} </p>
-  //   </div>
-  // );
 }
 
 export default BlogDetails;

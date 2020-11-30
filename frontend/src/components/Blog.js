@@ -5,13 +5,6 @@ import axios from "axios";
 import actions from "../api";
 // import blogDetails from './BlogDetails';
 
-// GOALS FOR BLOG PAGE:
-
-// MAP THROUGH DB AND PULL BLOGS FROM BACKEND, DISPLAY ON FRONTEND
-// CREATIVE FRONTEND DESIGN WITH MOST RECENT BLOG POST AS FEATURED POST ON TOP OF PAGE. 
-// ALL OTHER BLOG POSTS ARE LISTED BELOW POST SECTION SHOULD INCLUDE: IMAGE, TITLE, DATE, 
-// SUMMARY ( 2-3 LINES), LINK TO "CONTINUE READING" WHICH TAKES READER TO BLOG DETAILS PAGE
-// WHERE THEY CAN READ ENTIRE BLOG, FULL SCREEN.
 function Blog(props) {
 const [blog, setBlog] = useState([]);
 useEffect(() => {
@@ -23,13 +16,13 @@ useEffect(() => {
 }, []);
 
 
-// const showDetails = () => {
-//   return blog.map((eachblog) => {
-//     return(
-//       <p>{eachblog.body}</p>
-//     )
-//   })
-// }
+const showDetails = () => {
+  return blog.map((eachblog) => {
+    return(
+      <p>{eachblog.body}</p>
+    )
+  })
+}
 
 const showBlogs = () => {
   return blog.map((eachblog) => {
@@ -43,7 +36,8 @@ const showBlogs = () => {
         <h4>{eachblog.datePublished} </h4>
         <h5>{eachblog.summary}</h5>
         {/* <Link to={`/ReadingBlog/${blog._id}`}  className="readMoreLink">Read More</Link> */}
-        <Link to={`/ReadingBlog`} className="readMoreLink" >Read More</Link>
+        <Link to={`/blog/${eachblog._id}`} className="readMoreLink" >Read More</Link>
+        {/* <button onclick="showDetails()" className="readMoreLink" >Read More</button> */}
       </div>
       </div>
     )

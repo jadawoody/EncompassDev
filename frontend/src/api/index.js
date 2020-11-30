@@ -39,8 +39,8 @@ const actions = {
   getBlogs: async (blogs) => {
     return await API.get(`/getBlogs`, resetHead());
   },
-  getBlogDetails: async (blogs) => {
-    return await API.get(`/getBlogDetails`, resetHead());
+  getBlogDetails: async (id) => {
+    return await API.get(`/getBlogDetails/?id=${id}`, resetHead());
   },
 };
 

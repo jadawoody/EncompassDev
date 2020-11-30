@@ -2,16 +2,12 @@
 const router = require("express").Router();
 const Blog = require("../models/Blog.model");
 
+
+
 router.get('/', (req, res, next) => {
   res.status(200).json({ msg: 'Working' });
 });
 
-//Add a new blog post
-// router.post("/newBlog", (req,res) => {
-//   Blog.create(req.body).then((blog) => {
-//     res.json({ blog });
-//   })
-// })
 
 //map through and display blogs
 router.get("/getBlogs", (req, res) => {
@@ -21,14 +17,19 @@ router.get("/getBlogs", (req, res) => {
     //set the result to the blogs im pulling from the DB
     res.json({ blogs });
   });
+});
 
-  //get movie details
-router.get("/getBlogDetails/:id", (req, res) => {
-  console.log("bugsBunny");
-  Blogs.findById(req.params.id).then((blogs) => {
+
+//get blog details
+router.get("/getBlogDetails", (req, res) => {
+  console.log(req.query,"<<<<<<<<<<<<<<<<<<<<<<<<<<Req")
+  // console.log(req.params, req.query);
+  Blog.findById(req.query.id).then((blogs) => {
+    // console.log("lemon-water")
+    console.log(blogs)
     res.json({ blogs });
   });
 });
 
-});
+
 module.exports = router;

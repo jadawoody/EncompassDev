@@ -17,9 +17,7 @@ import BlogDetails from './components/BlogDetails';
 function App(props) {
   return (
     <div>
-  {/* <Menu/> */}
-  {/* <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} /> */}
-    {/* <div id="pageWrap"> */}
+
     <nav id="regularMenu" role="navigation">
       <div id="nav">
       <label for="toggle" id="burgerBars">&#9776;</label>
@@ -40,7 +38,7 @@ function App(props) {
         </div>   
       </div>
     </nav>
-
+    
           
       <Switch>
         <Route exact path='/' render={() => <Home/>} />
@@ -50,7 +48,7 @@ function App(props) {
         <Route exact path='/Physicians' render={() => <Physicians/>} />
         <Route exact path='/Blog' render={(props) => <Blog {...props} />} />
         <Route exact path='/ContactUs' render={() => <Contact/>} />
-        <Route exact path='/ReadingBlog' render={() => <BlogDetails/> } />
+        <Route exact path='/blog/:id' render={(props) => <BlogDetails {...props}/> } />
       </Switch>
       <footer>
         <div>
@@ -63,7 +61,7 @@ function App(props) {
         <p>2300 Haggerty Road, Suite 1190 | West Bloomfield, Michigan 48323 | (248)624-9800</p>
       </footer>
     </div>
-    // </div>
+    
   );
 }
 
