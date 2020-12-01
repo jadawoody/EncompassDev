@@ -10,7 +10,13 @@ const blogSchema = new Schema(
         datePublished: {type: String},
         summary: {type:String},
         author: {type: String},
-        body: {type: String},
+        body1: {type: String},
+        body2: {type: String},
+        body3: {type: String},
+        body4: {type: String},
+        body5: {type: String},
+        body6: {type: String},
+        body7: {type: String},
     }
 )
 const Blog = mongoose.model("Blog", blogSchema)

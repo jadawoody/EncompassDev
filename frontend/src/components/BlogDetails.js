@@ -20,18 +20,7 @@ function BlogDetails(props) {
       getBlogDetails();
   }, []);
 
-//   console.log(props);
-//   let details = props.blogs.find((eachblog) => {
-//     return eachblog === props.match.params.id; 
-//   });
-
-// return(
-//   <div>
-//     {details.title}
-//     {details.body}
-//   </div>
-// )
-
+  
   return (
     <div>
 
@@ -40,15 +29,28 @@ function BlogDetails(props) {
       </div>
       <section className="teamIntro">
           <h2>Encompass HealthCare Blog</h2>
-          <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p>
+          {/* <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p> */}
       </section>
 
       {/* <section className="blogSect2">
           <h2>Full Blog Pages Coming Soon...Stay Tuned!</h2>
       </section> */}
-      <img src={blogDetail.image} alt="blog pic"/>
-      <h2>{blogDetail.title}</h2>
-      <p>{blogDetail.body}</p>
+      
+      {/* <article>
+        <img src={blogDetail.image} alt="blog pic"/>
+      </article> */}
+      {/* <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/> */}
+      <h2 id="blogDeetTitle">{blogDetail.title}</h2>
+      <div id="blogDeetAllBody">
+      <p id="blogDeetBody">{blogDetail.body1}</p>
+      <p id="blogDeetBody">{blogDetail.body2}</p>
+      <p id="blogDeetBody">{blogDetail.body3}</p>
+      <p id="blogDeetBody">{blogDetail.body4}</p>
+      <p id="blogDeetBody">{blogDetail.body5}</p>
+      <p id="blogDeetBody">{blogDetail.body6}</p>
+      <p id="blogDeetBody">{blogDetail.body7}</p>
+      </div>
+
 
       {/* <div>
         {showBlogs()}
