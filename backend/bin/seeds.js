@@ -14,18 +14,7 @@ const blogs = [
     //   body4: {type: String},
     //   body5: {type: String},
     // },
-    // {
-    //   title: {type: String},
-    //   image: {type: String},
-    //   datePublished: {type: String},
-    //   summary: {type:String},
-    //   author: {type: String},
-    //   body1: {type: String},
-    //   body2: {type: String},
-    //   body3: {type: String},
-    //   body4: {type: String},
-    //   body5: {type: String},
-    // },
+    
     {
       title: "How Telemedicine Might Be Enchancing the American Healthcare System",
       image: "images/telemedBlogDec2020.jpg",
