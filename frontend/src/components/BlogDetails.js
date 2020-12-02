@@ -32,6 +32,10 @@ function BlogDetails(props) {
           {/* <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p> */}
       </section>
 
+      <div id="loading">
+        <img id="loading-image" src="images/loadingGiphy1.gif" alt="Loading..." />
+      </div>
+
       {/* <section className="blogSect2">
           <h2>Full Blog Pages Coming Soon...Stay Tuned!</h2>
       </section> */}
