@@ -14,7 +14,7 @@ function BlogDetails(props) {
   useEffect(() => {
     async function getBlogDetails() {
       let res = await actions.getBlogDetails(props.match.params.id);
-    console.log(res.data.blogs)
+    console.log(res.data.blogs.image)
       setBlogDetail(res?.data.blogs);
     }
       getBlogDetails();
@@ -41,7 +41,7 @@ function BlogDetails(props) {
       {/* <article>
         <img src={blogDetail.image} alt="blog pic"/>
       </article> */}
-      {/* <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/> */}
+      <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/>
       <h2 id="blogDeetTitle">{blogDetail.title}</h2>
       <div id="blogDeetAllBody">
       <p id="blogDeetBody">{blogDetail.body1}</p>

@@ -40,7 +40,7 @@ function Team(props) {
             <section className="Tsec1">
                 <div className="textBox1">
                 <h4>Kitty</h4>
-                <p>Katherine "Kitty" Carpenter is our Office Manager. Kitty handles our patient schedule and a great deal of the wound care responsibilities at the office. Kitty is also our Traveling Wound Care specialist. On occasion, and in special circumstances, Kitty makes trips to long term care facilities for patients who cannot travel to us.</p>
+                <p>Katherine "Kitty" Carpenter is our Office Facilitator. Kitty handles our patient schedule and a great deal of the wound care responsibilities at the office. Kitty is also our Traveling Wound Care specialist. On occasion, and in special circumstances, Kitty makes trips to long term care facilities for patients who cannot travel to us.</p>
                 </div>
                 <img src={kittyHead} alt="Kitty Headshot" className="Tsec1Pic"/>
 
