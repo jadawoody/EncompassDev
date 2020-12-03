@@ -67,6 +67,20 @@ const showBlogs = () => {
           <div>
             {showBlogs()}
           </div>
+
+          <br/>
+          <br/>
+          <br/>
+          <section className="blogSect3">
+              <h2>Have you been to our Media Room?</h2>
+              <p>Visit the link below and check out the Encompass HealthCare Media Room - an official collection of our best videos and commercial features!</p>
+              
+              <a href={`https://encompasshealthcare.newswire.com/`} target="_blank" className="blogSect3Link"><p>Encompass HealthCare Media Room</p></a>
+          </section>
+          <br/>
+          <br/>
+          
+
                       {/* {showDetails()} */}
 
         </div>

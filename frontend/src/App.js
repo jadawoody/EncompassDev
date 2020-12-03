@@ -13,6 +13,7 @@ import linkIcon from './images/iconRound2.jpg';
 import ytIcon from './images/iconRound3.jpg';
 import emailicon from './images/iconRound4 (1).jpg';
 import BlogDetails from './components/BlogDetails';
+import CaroPractice from './components/CaroPractice';
 
 function App(props) {
   return (
@@ -49,6 +50,7 @@ function App(props) {
         <Route exact path='/Blog' render={(props) => <Blog {...props} />} />
         <Route exact path='/ContactUs' render={() => <Contact/>} />
         <Route exact path='/blog/:id' render={(props) => <BlogDetails {...props}/> } />
+        <Route exact path='/CaroPractice' render={() => <CaroPractice /> } />
       </Switch>
       <footer>
         <div>
