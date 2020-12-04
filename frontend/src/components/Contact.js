@@ -26,7 +26,7 @@ function Contact(props) {
             <p>2300 Haggerty Road, Suite 1190</p>
             <p>West Bloomfield, MI 48323</p></a>
             <h5>Phone</h5>
-            <a href="2486249800" id="phoneCall"><p>(248)624-9800</p></a>
+            <a href="tel:+2486249800" id="phoneCall"><p>(248)624-9800</p></a>
             <h5>Fax</h5>
             <p>(248)624-9825</p>
 

@@ -60,7 +60,7 @@ function App(props) {
           <a href={`https://mailchi.mp/encompasshealthcare/joinus`} target="_blank" ><img src={emailicon} alt="" id="footerImg"/></a>
         </div>
         <p>© 2020 Encompass HealthCare & Wound Medicine | Designed by Jada Woody</p>
-        <p>2300 Haggerty Road, Suite 1190 | West Bloomfield, Michigan 48323 | (248)624-9800</p>
+        <p>2300 Haggerty Road, Suite 1190 | West Bloomfield, Michigan 48323 | <a href="tel:+2486249800" id="phoneCall">(248)624-9800</a></p>
       </footer>
     </div>
     
