@@ -79,7 +79,7 @@ function Physicians(props) {
         <div className="apptDiv">
         <h4 className="physHeads">Appointments:</h4>
         <ol>
-            <li>Call our office and ask to speak directly with Dr. Ruben, our medical director, or with Kitty, our office manager. Our office phone: 248-624-9800</li>
+            <li>Call our office and ask to speak directly with Dr. Ruben, our medical director, or with Kitty, our office facilitator. Our office phone: 248-624-9800</li>
             <br></br>
             <li>For an ID consult, your direct referral is preferred. Please have our Patient Referral form filled out if you cannot reach us via phone. </li>
         </ol>
