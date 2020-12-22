@@ -17,6 +17,7 @@ useEffect(() => {
 }, []);
 
 
+// this function maps through the database and displays the blog body for the selected blog
 const showDetails = () => {
   return blog.map((eachblog) => {
     return(
@@ -25,6 +26,7 @@ const showDetails = () => {
   })
 }
 
+// this function maps through the database and displays the blog info
 const showBlogs = () => {
   return blog.map((eachblog) => {
     return (
@@ -45,6 +47,9 @@ const showBlogs = () => {
   })
 }
 
+function blogNotLoaded(){
+  return <h2>This may take a moment to load...</h2>
+}
 
 
     return (

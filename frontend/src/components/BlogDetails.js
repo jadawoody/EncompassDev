@@ -3,9 +3,6 @@ import axios from 'axios';
 import actions from '../api';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/EH logo.jpg';
- 
-
-
 
 function BlogDetails(props) {
 
