@@ -561,7 +561,7 @@ swal-title{
   font-size: 4vh;
 }
 .bruceTeachPic{
-  height: 250px;
+  height: 350px;
   width: auto;
   align-self: center;
 }
@@ -577,17 +577,25 @@ swal-title{
     height: auto;
   } */
 }
+.physIntroSection p{
+  width: 90vw;
+  font-size: 26px;
+}
 .physSec1{
   display: flex;
   margin: 0 10px 0 10px;
 }
 @media (max-width: 600px){
-  .physSec1{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 10px;
-    align-items: center;
+  .physSec1 p{
+    width: 80vw;
+    font-size: 24px;
+    margin-left: -10vw;
+    text-align: left;
+  }
+  .physSec2 p {
+    width: 80vw;
+    font-size: 24px;
+    text-align: left;
   }
   .physSecArt{
     display: flex;
@@ -604,6 +612,21 @@ swal-title{
   }
   .physBrick{
     margin-left: 0px;
+  }
+  .physBrick li{
+    width: 95vw;
+    font-size: 24px;
+  }
+  .apptDiv li{
+    width: 95vw;
+    font-size: 24px;
+  }
+  .physSec3brick li {
+    width: 95vw;
+    font-size: 24px;
+  }
+  #aptHead{
+    margin-left: 3vw;
   }
 }
 .physSecArt p{
@@ -623,16 +646,36 @@ swal-title{
   justify-content: space-around;
 }
 .physSec3Pic{
-  height: 250px;
+  height: 350px;
   width: auto;
   align-self: center;
 }
 .physBrick{
   width: 40vw;
 }
-.apptDiv{
+.apptDiv li{
   width: 75vw;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+}
+.apptDiv{
+  margin-left: 5vw;
+}
+/* #aptHead{
+  margin-left: 5vw;
+} */
+@media (max-width: 1150px){
+  .physSec1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+  }
+  .physSec1 p{
+    width: 80vw;
+    margin-left: -10vw;
+    text-align: left;
+  }
 }
 
 

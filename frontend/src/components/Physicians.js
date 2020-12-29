@@ -34,7 +34,7 @@ function Physicians(props) {
         
         <section>
         <article className="physSec3Art">
-        <div>
+        <div className="physSec3brick">
         <h3 className="physHeads">Infectious Disease Consultations:</h3>
         <ol>
             <li>Acute Cellulitis</li>
@@ -77,10 +77,10 @@ function Physicians(props) {
         </section>
 
         <div className="apptDiv">
-        <h4 className="physHeads">Appointments:</h4>
+        <h4 className="physHeads" id="aptHead">Appointments:</h4>
         <ol>
             <li>Call our office and ask to speak directly with Dr. Ruben, our medical director, or with Kitty, our office facilitator. Our office phone: 248-624-9800</li>
-            <br></br>
+            {/* <br></br> */}
             <li>For an ID consult, your direct referral is preferred. Please have our Patient Referral form filled out if you cannot reach us via phone. </li>
         </ol>
         </div>
