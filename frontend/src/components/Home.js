@@ -1,5 +1,5 @@
 import React, { useState, useEffect, onChange } from 'react';
-import actions from '../api/index';
+// import actions from '../api/index';
 import ptPic from '../images/bruceLizAbla.jpg';
 import ele4 from '../images/ele4.png';
 import ele2 from '../images/ele2.png';
@@ -12,7 +12,7 @@ import HBOTpic from '../images/HBOT.jpg';
 import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import swal from 'sweetalert';
+// import swal from 'sweetalert';
 import kittyBanner from '../images/qualCareBan6.jpg';
 
 function Home(props) {
