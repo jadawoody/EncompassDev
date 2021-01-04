@@ -1,8 +1,8 @@
 import React from 'react';
-import BER from '../images/Bruce-new-heashot1.jpg';
+import BER from '../images/webp/Bruce-new-heashot1 (1).webp';
 import placeHold from '../images/placeholder 2.jpg';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
+import logoPic from '../images/webp/EHlogo.webp';
 import robinHead from '../images/robin1.jpg';
 import shenariaHead from '../images/shenaria2.jpg';
 import kittyHead from '../images/kitty2.jpg';

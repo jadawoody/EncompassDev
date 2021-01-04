@@ -1,19 +1,19 @@
 import React, { useState, useEffect, onChange } from 'react';
 // import actions from '../api/index';
-import ptPic from '../images/bruceLizAbla.jpg';
+import ptPic from '../images/webp/bruceLizAbla.webp';
 import ele4 from '../images/ele4.png';
 import ele2 from '../images/ele2.png';
 import ele3 from '../images/ele3.png';
 import {Link} from 'react-router-dom';
-import bannerTrial2 from '../images/bannerTrial2.jpg';
-import covidBanner from '../images/covidFall2020.jpg';
-import EHangleBanner from '../images/teleMedFall2020Banner.jpg';
-import HBOTpic from '../images/HBOT.jpg';
-import insuranceBanner from '../images/insuranceFall2020Banner.jpg';
+import bannerTrial2 from '../images/webp/bannerTrial2.webp';
+import covidBanner from '../images/webp/covidFall2020.webp';
+import EHangleBanner from '../images/webp/teleMedFall2020Banner.webp';
+import HBOTpic from '../images/webp/HBOT.webp';
+import insuranceBanner from '../images/webp/insuranceFall2020Banner.webp';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 // import swal from 'sweetalert';
-import kittyBanner from '../images/qualCareBan6.jpg';
+import kittyBanner from '../images/webp/qualCareBan6.webp';
 
 function Home(props) {
     
