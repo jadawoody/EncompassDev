@@ -4,10 +4,21 @@ import {Link} from 'react-router-dom';
 import logoPic from '../images/webp/EHlogo.webp';
 import Location from './Location';
 import EHonMap from '../images/webp/mapEHGoogle.webp';
-
+import swal from 'sweetalert';
 function Contact(props) {
+
+    {swal({
+        title: "Hey there!",
+        text: "Like & Follow us on Facebook! We post new content every week so you can keep up with whats happening in the world of Infectious Disease & Wound Care!",
+        icon: "info",
+        button: "Okay!",
+        })}
     return (
+        
         <div id="totalContact">
+        
+        
+
         <div className="logoDiv">
             <Link to={`/`}><img id="navLogo" src={logoPic} alt="Encompass HealthCare Logo" /></Link>
           </div>

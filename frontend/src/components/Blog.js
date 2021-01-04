@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import logoPic from '../images/webp/EHlogo.webp';
 import axios from "axios";
 import actions from "../api";
+import swal from 'sweetalert';
 // import blogDetails from './BlogDetails';
 
 function Blog(props) {
@@ -51,6 +52,12 @@ function blogNotLoaded(){
   return <h2>This may take a moment to load...</h2>
 }
 
+{swal({
+  title: "Loading...",
+  text: "Our blogs may take a moment to load from the database. We appreciate your patience!",
+  icon: "success",
+  button: "Okay!",
+  })}
 
     return (
         <div>

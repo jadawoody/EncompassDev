@@ -810,7 +810,7 @@ swal-title{
 }
 .blogSect3Link{
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .blogSect3Link:hover{
   color: cornflowerblue;
@@ -961,3 +961,29 @@ footer{
 
 
 /* CAROPRACTICE PAGE STYLES */
+
+/* SWAL/SWEETALERT STYLES */
+.swal-overlay {
+  background-color: rgba(56, 75, 111, 0.577);
+}
+.swal-text {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.swal-title {
+  font-size: 28px;
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962B3;
+  font-size: 18px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  margin-right: 13vw;
+}
+.swal-modal {
+  border-radius: 10%;
+  padding: 15px 0 15px 0;
+}
