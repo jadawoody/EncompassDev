@@ -1,13 +1,13 @@
 import React from 'react';
 import BER from '../images/webp/Bruce-new-heashot1 (1).webp';
-import placeHold from '../images/placeholder 2.jpg';
+import placeHold from '../images/webp/placeholder2.webp';
 import {Link} from 'react-router-dom';
 import logoPic from '../images/webp/EHlogo.webp';
-import robinHead from '../images/robin1.jpg';
-import shenariaHead from '../images/shenaria2.jpg';
-import kittyHead from '../images/kitty2.jpg';
-import jadaHead from '../images/jada4.jpg';
-import peterHead from '../images/peter1.jpg';
+import robinHead from '../images/webp/robin1.webp';
+import shenariaHead from '../images/webp/shenaria2.webp';
+import kittyHead from '../images/webp/kitty2.webp';
+import jadaHead from '../images/webp/jada4.webp';
+import peterHead from '../images/webp/peter1.webp';
 
 function Team(props) {
     return (

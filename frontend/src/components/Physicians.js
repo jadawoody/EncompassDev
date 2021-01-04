@@ -1,11 +1,9 @@
 import React from 'react';
-import operatingPic from '../images/ultra.JPG';
-
-// import bruceTeaches from '';
+import operatingPic from '../images/webp/ultra.webp';
 import placeHold from '../images/placeholder 2.jpg';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
-import needID from '../images/needIDconsult.png';
+import logoPic from '../images/webp/EHlogo.webp';
+import needID from '../images/webp/needIDconsult.webp';
 function Physicians(props) {
     return (
         <div className="physTotal">

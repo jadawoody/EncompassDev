@@ -1,9 +1,9 @@
 import React from 'react';
-import bruceContact from '../images/bruceContactPic.png';
+import bruceContact from '../images/webp/bruceContactPic.webp';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
+import logoPic from '../images/webp/EHlogo.webp';
 import Location from './Location';
-import EHonMap from '../images/mapEHGoogle.png';
+import EHonMap from '../images/webp/mapEHGoogle.webp';
 
 function Contact(props) {
     return (

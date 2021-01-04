@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
-import CMPic from '../images/case-manager (1).jpg';
+import logoPic from '../images/webp/EHlogo.webp';
+import CMPic from '../images/webp/case-manager1.webp';
 
 function CM(props) {
     return (

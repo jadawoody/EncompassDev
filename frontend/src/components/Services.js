@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
-import treatBanner from '../images/treatmentPlansWork.jpg';
+import logoPic from '../images/webp/EHlogo.webp';
+import treatBanner from '../images/webp/treatmentPlansWork.webp';
 function Services(props) {
     return (
      <div className="serviceTotal">

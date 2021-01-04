@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
-import logoPic from '../images/EH logo.jpg';
+import logoPic from '../images/webp/EHlogo.webp';
 import axios from "axios";
 import actions from "../api";
 // import blogDetails from './BlogDetails';
@@ -66,7 +66,7 @@ function blogNotLoaded(){
 
           <section className="blogSect2">
               {/* <h2>Blogs Coming Soon...Stay Tuned!</h2> */}
-              <h2>This may take a moment to load...</h2>
+              {/* <h2>This may take a moment to load...</h2> */}
           </section>
 
           <div>
