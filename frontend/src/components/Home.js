@@ -46,7 +46,8 @@ function Home(props) {
             <header className="homeHeader2">
                 {/* <p>Welcome to Encompass HealthCare!</p> */}
                 <p id="opener">Michigan's Premier Infectious Disease Specialist & Wound Care Facility</p>
-                <p id="opener2">Call us now! (248)624-9800</p>
+                {/* <p id="opener2">Call us now! (248)624-9800</p> */}
+                <p id="opener2">Call us now! <a href="tel:+2486249800" id="phoneCall">(248)624-9800</a></p>
             </header>
 
             <div className="homeSection1">
