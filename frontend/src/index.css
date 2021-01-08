@@ -473,7 +473,7 @@ swal-title{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 6vw;
+  padding-right: 0vw;
 }
 .CMsec1{
   flex-direction: column;
@@ -933,10 +933,10 @@ footer{
   display: none;
   width: 26px;
   float: left;
-  margin-top: -35px;
-  margin-bottom: 10px;
+  margin-top: -25px;
+  margin-bottom: 0px;
   /* margin: 0 10px 0 0; */
-  position: fixed;
+  /* position: fixed; */
   z-index: 100;
 }
 #toggle{
