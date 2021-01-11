@@ -33,7 +33,7 @@ const showBlogs = () => {
     return (
       <div className="eachBlogBigDiv">
       <article>
-        <img src={eachblog.image} alt="blog pic"/>
+        <img src={eachblog.image} alt="blog pic" id="blogimg1"/>
       </article>
       <div className="eachBlogDiv">
         <h3>{eachblog.title}</h3>

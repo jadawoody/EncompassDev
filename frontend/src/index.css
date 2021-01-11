@@ -718,15 +718,20 @@ swal-title{
   align-items: center;
   margin-bottom: 2vh;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
   .eachBlogBigDiv{
     flex-direction: column;
     margin-top: 5vh;
   }
+  #blogimg1{
+    height: auto;
+    width: 60vw;
+    margin-bottom: -3vh;
+  }
 }
 .eachBlogBigDiv img{
   height: auto;
-  width: 230px;
+  width: 300px;
   margin-top: 5vh;
 }
 .eachBlogDiv h3{

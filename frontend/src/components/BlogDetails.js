@@ -6,18 +6,19 @@ import logoPic from '../images/EH logo.jpg';
 
 function BlogDetails(props) {
 
+  const [blog, setBlog] = useState([]);
 
   const [blogDetail, setBlogDetail] = useState([]);
   useEffect(() => {
     async function getBlogDetails() {
       let res = await actions.getBlogDetails(props.match.params.id);
-    console.log(res.data.blogs.image)
+    // console.log(res.data.blogs.image)
       setBlogDetail(res?.data.blogs);
     }
       getBlogDetails();
   }, []);
 
-  
+
   return (
     <div>
 
@@ -26,18 +27,8 @@ function BlogDetails(props) {
       </div>
       <section className="teamIntro">
           <h2>Encompass HealthCare Blog</h2>
-          {/* <p>Interested in learning more about Encompass HealthCare? Check here for our monthly blogs! We'll keep you updated on services and treatments available at Encompass, conditions we treat, infectious disease news, wound care techniques, and more!</p> */}
       </section>
-
       
-
-      {/* <section className="blogSect2">
-          <h2>Full Blog Pages Coming Soon...Stay Tuned!</h2>
-      </section> */}
-      
-      {/* <article>
-        <img src={blogDetail.image} alt="blog pic"/>
-      </article> */}
       <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/>
       <h2 id="blogDeetTitle">{blogDetail.title}</h2>
       <div id="blogDeetAllBody">
