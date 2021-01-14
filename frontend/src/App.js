@@ -5,6 +5,9 @@ import './index.css';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
+import Blog2 from './components/Blog2';
+// importing individual blogs here
+import iBlog1 from './components/BlogRepo/blog1';
 import Team from './components/Team';
 import CM from './components/CM';
 import Physicians from './components/Physicians';
@@ -52,7 +55,11 @@ function App(props) {
         <Route exact path='/ContactUs' render={() => <Contact/>} />
         <Route exact path='/blog/:id' render={(props) => <BlogDetails {...props}/> } />
         <Route exact path='/CaroPractice' render={() => <CaroPractice /> } />
+        {/* <Route exact path='/Blog2' render={() => <Blog2/>} /> */}
         <Route component={NotFound} />
+
+{/* routes to individual blogs */}
+        <Route exact path='/WhatToKnowCOVID19' render={() => <iBlog1 />} />
       </Switch>
       <footer>
         <div>
