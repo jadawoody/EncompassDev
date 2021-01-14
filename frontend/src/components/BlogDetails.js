@@ -12,7 +12,6 @@ function BlogDetails(props) {
   useEffect(() => {
     async function getBlogDetails() {
       let res = await actions.getBlogDetails(props.match.params.id);
-    // console.log(res.data.blogs.image)
       setBlogDetail(res?.data.blogs);
     }
       getBlogDetails();
@@ -29,8 +28,13 @@ function BlogDetails(props) {
           <h2>Encompass HealthCare Blog</h2>
       </section>
       
-      <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/>
+      {/* <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/> */}
+      <div id="blogDeetPicDiv">
+        <img src="../images/ehBlogBanner.jpg" alt="img try 2" id="blogDeetPic"/>
+      </div>
+
       <h2 id="blogDeetTitle">{blogDetail.title}</h2>
+      <h4 id="blogDeetMore">{blogDetail.datePublished} - {blogDetail.author}</h4>
       <div id="blogDeetAllBody">
       <p id="blogDeetBody">{blogDetail.body1}</p>
       <p id="blogDeetBody">{blogDetail.body2}</p>

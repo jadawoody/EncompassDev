@@ -19,7 +19,7 @@ const blogs = [
      {
       title: "Infectious Disease - A COVID Update",
       image: "images/idCovidJan21Blog.jpg",
-      datePublished: "January 2021",
+      datePublished: "January, 2021",
       summary: "Infectious Disease has become an even more interesting specialty over the past year. But although COVID-19 is still a large topic for us, there are other subjects and advancements to review as well!",
       author: "Jada Woody",
       body1: "Infectious Disease! Most of us probably haven’t really given those two words a thought in the past few years – that is until COVID-19 hit every news channel, radio station, and the populations of almost every country in the world! Some of our young people, especially young children, may now think of COVID-19 as synonymous with Infectious Disease studies and medicine. Still, there are other facets of the Infectious Disease specialty that deserve recognition and attention – but today, we’re here to give some legitimate updates on the COVID-19 pandemic.",
