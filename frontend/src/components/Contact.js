@@ -7,12 +7,12 @@ import EHonMap from '../images/webp/mapEHGoogle.webp';
 import swal from 'sweetalert';
 function Contact(props) {
 
-    {swal({
-        title: "Hey there!",
-        text: "Like & Follow us on Facebook! We post new content every week so you can keep up with whats happening in the world of Infectious Disease & Wound Care!",
-        icon: "info",
-        button: "Okay!",
-        })}
+    // {swal({
+    //     title: "Hey there!",
+    //     text: "Like & Follow us on Facebook! We post new content every week so you can keep up with whats happening in the world of Infectious Disease & Wound Care!",
+    //     icon: "info",
+    //     button: "Okay!",
+    //     })}
     return (
         
         <div id="totalContact">

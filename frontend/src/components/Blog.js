@@ -52,12 +52,12 @@ function blogNotLoaded(){
   return <h2>This may take a moment to load...</h2>
 }
 
-{swal({
-  title: "Loading...",
-  text: "Our blogs may take a moment to load from the database. We appreciate your patience!",
-  icon: "success",
-  button: "Okay!",
-  })}
+// {swal({
+//   title: "Loading...",
+//   text: "Our blogs may take a moment to load from the database. We appreciate your patience!",
+//   icon: "success",
+//   button: "Okay!",
+//   })}
 
     return (
         <div>
