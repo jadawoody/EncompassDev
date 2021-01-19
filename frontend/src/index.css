@@ -728,6 +728,9 @@ swal-title{
     width: 60vw;
     margin-bottom: -3vh;
   }
+  #blogDeetPic{
+    visibility: hidden;
+  }
 }
 .eachBlogBigDiv img{
   height: auto;
