@@ -29,13 +29,13 @@ function BlogDetails(props) {
       </section>
       
       {/* <img id="blogDeetPic" src={blogDetail.image} alt="blog pic"/> */}
-//       <div id="blogDeetPicDiv">
-//         <img src="../images/ehBlogBanner.jpg" alt="img try 2" id="blogDeetPic"/>
-//       </div>
+  {/* <div id="blogDeetPicDiv">
+        <img src="../images/ehBlogBanner.jpg" alt="img try 2" id="blogDeetPic"/>
+      </div> */}
       
-      <div id="blogDeetPicDiv2">
+      {/*<div id="blogDeetPicDiv2">
         <img src="../images/encompassBlogsTemplate.jpg" alt="You're reading an Encompass HealthCare Blog!" id="blogDeetPic2"/>
-      </div>
+      </div>*/}
 
       <h2 id="blogDeetTitle">{blogDetail.title}</h2>
       <h4 id="blogDeetMore">{blogDetail.datePublished} - {blogDetail.author}</h4>
