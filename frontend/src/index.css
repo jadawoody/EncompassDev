@@ -773,6 +773,17 @@ swal-title{
   display: flex;
   justify-content: center;
 }
+
+#blogDeetPic2{
+  /* visibility: hidden; */
+  height: auto;
+  width: 40vw;
+}
+#blogDeetPicDiv2{
+  display: flex;
+  justify-content: center;
+}
+
 #blogDeetTitle{
   font-size: 4.5vh;
   font-weight: 500;
