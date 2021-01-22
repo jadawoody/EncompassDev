@@ -79,7 +79,7 @@ function Home(props) {
                 <article className="eleGroup">
                     <img src={ele2} alt="" className="element1"/>
                     <h5 id="eleTitle">Wound Care Services</h5>
-                    <p id="elep">Forget weekly debridements and painful treatments! Chronic wounds or wounds over 6 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the inside out.</p>
+                    <p id="elep">Forget weekly debridements and painful treatments! Chronic wounds or wounds over 4 weeks old, can be healed and cured at Encompass HealthCare! Our staff treats the 5 underlying causes of non-healing, attacking the source of the problem and healing the wound from the inside out.</p>
                 </article>
                 <article className="eleGroup">
                     <img src={ele3} alt="" className="element1"/>
